@@ -1,6 +1,9 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1">
     <!--
     /*
      *	This content is generated from the API File Info.
@@ -16,38 +19,41 @@
      *
      */
     -->
-    <ScrollView android:id="@+id/profile"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" >
 
-        <RelativeLayout android:id="@+id/content_container"
+
+        <RelativeLayout
+            android:id="@+id/content_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
-            <View android:id="@+id/_bg__profile"
+            <View
+                android:id="@+id/_bg__profile"
                 android:background="@drawable/_bg__profile_shape"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_width="385dp"
                 android:layout_height="896dp" />
 
-            <View   android:id="@+id/rectangle_5"
+            <View
+                android:id="@+id/rectangle_5"
                 android:background="@drawable/rectangle_5_shape"
                 android:layout_marginStart="-21dp"
                 android:layout_marginTop="825dp"
                 android:layout_width="428dp"
                 android:layout_height="86dp" />
 
-            <ImageView android:id="@+id/background_menu_1"
-                android:src="@drawable/background_menu_1"
-                android:contentDescription="background_menu_1"
+            <ImageView
+                android:id="@+id/background_menu_1"
+                android:layout_width="428dp"
+                android:layout_height="840dp"
                 android:layout_marginStart="-21dp"
                 android:layout_marginTop="-15dp"
-                android:layout_width="428dp"
-                android:layout_height="840dp" />
+                android:contentDescription="background_menu_1"
+                android:src="@drawable/background_menu_1" />
 
 
-            <RelativeLayout android:id="@+id/surat_masuk"
+            <RelativeLayout
+                android:id="@+id/surat_masuk"
                 android:layout_marginTop="823dp"
                 android:layout_marginStart="79dp"
                 android:layout_width="wrap_content"
@@ -55,14 +61,16 @@
                 >
 
 
-                <RelativeLayout android:id="@+id/ant_design_mail_outlined"
+                <RelativeLayout
+                    android:id="@+id/ant_design_mail_outlined"
                     android:layout_marginTop="0dp"
                     android:layout_marginStart="6dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     >
 
-                    <ImageView android:id="@+id/vector"
+                    <ImageView
+                        android:id="@+id/vector"
                         android:src="@drawable/vector"
                         android:contentDescription="vector"
                         android:layout_marginStart="2dp"
@@ -72,7 +80,8 @@
 
                 </RelativeLayout>
 
-                <TextView android:id="@+id/surat_masuk_ek1"
+                <TextView
+                    android:id="@+id/surat_masuk_ek1"
                     android:fontFamily="Average Sans"
                     android:layout_gravity="center_horizontal|center"
                     android:gravity="center"
@@ -256,12 +265,13 @@
 
             </RelativeLayout>
 
-            <View   android:id="@+id/rectangle_6"
-                android:background="@drawable/rectangle_6_shape"
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="361dp"
+                android:layout_height="409dp"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="174dp"
-                android:layout_width="361dp"
-                android:layout_height="409dp" />
+                android:background="@drawable/rectangle_6_shape" />
 
             <View   android:id="@+id/rectangle_9"
                 android:background="@drawable/rectangle_9_shape"
@@ -270,7 +280,8 @@
                 android:layout_width="361dp"
                 android:layout_height="32dp" />
 
-            <TextView android:id="@+id/nama"
+            <TextView
+                android:id="@+id/nama"
                 android:fontFamily="Roboto"
                 android:textSize="20sp"
                 android:textColor="@color/surat_masuk_ek1_color"
@@ -296,18 +307,19 @@
                 android:layout_width="361dp"
                 android:layout_height="32dp" />
 
-            <TextView android:id="@+id/_3411191149"
-                android:fontFamily="Roboto"
-                android:textSize="16sp"
-                android:textColor="@color/_3411191149_color"
-                android:layout_marginLeft="126dp"
-                android:layout_marginTop="289dp"
+            <TextView
+                android:id="@+id/_3411191149"
                 android:layout_width="111dp"
                 android:layout_height="30dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="289dp"
+                android:fontFamily="Roboto"
                 android:text="@string/_3411191149_string"
-                />
+                android:textColor="@color/_3411191149_color"
+                android:textSize="16sp" />
 
-            <TextView android:id="@+id/hizkia_syaukani"
+            <TextView
+                android:id="@+id/hizkia_syaukani"
                 android:fontFamily="Roboto"
                 android:textSize="16sp"
                 android:textColor="@color/_3411191149_color"
@@ -318,16 +330,16 @@
                 android:text="@string/hizkia_syaukani_string"
                 />
 
-            <TextView android:id="@+id/nip"
-                android:fontFamily="Roboto"
-                android:textSize="20sp"
-                android:textColor="@color/surat_masuk_ek1_color"
-                android:layout_marginLeft="21dp"
-                android:layout_marginTop="283dp"
+            <TextView
+                android:id="@+id/nip"
                 android:layout_width="58dp"
                 android:layout_height="37dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="283dp"
+                android:fontFamily="Roboto"
                 android:text="@string/nip_string"
-                />
+                android:textColor="@color/surat_masuk_ek1_color"
+                android:textSize="20sp" />
 
             <View   android:id="@+id/rectangle_10"
                 android:background="@drawable/rectangle_10_shape"
