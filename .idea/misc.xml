@@ -13,7 +13,7 @@
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1055" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_dashboard.xml" value="0.15896739130434784" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/lihat_arsip.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/lihat_surat_jadi.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/lihat_surat_keluar.xml" value="0.1" />
@@ -24,6 +24,8 @@
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.1045" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_buat_nota.xml" value="0.20416666666666666" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
