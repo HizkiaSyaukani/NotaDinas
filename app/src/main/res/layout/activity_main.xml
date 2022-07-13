@@ -7,30 +7,27 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
     <androidx.cardview.widget.CardView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        app:cardCornerRadius="115dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:id="@+id/cardviewlogo"
-        app:cardCornerRadius="250dp">
-    <androidx.cardview.widget.CardView
-        android:layout_width="220dp"
-        android:layout_marginTop="30dp"
-        android:layout_height="220dp"
-        app:cardCornerRadius="250dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="30dp"
-        android:layout_centerHorizontal="true"
-        app:cardBackgroundColor="@color/white"
-        android:layout_gravity="center"
-        >
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="210dp"
-            android:layout_height="220dp"
-            android:src="@mipmap/ic_logo"
-            android:scaleType="centerCrop"
-            android:layout_gravity="center"/>
-    </androidx.cardview.widget.CardView>
+        android:id="@+id/cardboardlogo">
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="100dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#d6d6d6">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
     </androidx.cardview.widget.CardView>
 
 
@@ -38,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login Akun"
-        android:layout_below="@+id/cardviewlogo"
+        android:layout_below="@+id/cardboardlogo"
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -88,7 +85,7 @@
     android:layout_below="@id/textpassword"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
-    android:layout_marginBottom="50dp"
+    android:layout_marginBottom="30dp"
     app:cardCornerRadius="5dp">
     <EditText
         android:id="@+id/password"
@@ -110,7 +107,7 @@
         android:layout_height="wrap_content"
         android:background="@color/biru_peruri"
         android:text="Masuk"
-        android:drawableLeft="@drawable/ic_baseline_login_24"/>
+        android:drawableLeft="@drawable/ic_baseline_login_24"
+        android:id="@+id/buttonmasuk"/>
     </androidx.cardview.widget.CardView>
-
 </RelativeLayout>
