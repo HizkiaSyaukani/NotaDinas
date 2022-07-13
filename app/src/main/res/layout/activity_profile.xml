@@ -103,7 +103,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-
+    <ScrollView
+        android:id="@+id/profile1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
 
                 <RelativeLayout android:id="@+id/fluent_mail_arrow_forward_16_regular"
                     android:layout_marginTop="0dp"
