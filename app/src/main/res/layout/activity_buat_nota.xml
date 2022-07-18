@@ -49,13 +49,14 @@
 
                 </RelativeLayout>
 
-                <ImageView android:id="@+id/background_menu_1_ek1"
-                    android:src="@drawable/background_menu_1_ek1"
-                    android:contentDescription="background_menu_1_ek1"
+                <ImageView
+                    android:id="@+id/background_menu_1_ek1"
+                    android:layout_width="428dp"
+                    android:layout_height="840dp"
                     android:layout_marginStart="-21dp"
                     android:layout_marginTop="-15dp"
-                    android:layout_width="428dp"
-                    android:layout_height="840dp" />
+                    android:contentDescription="background_menu_1_ek1"
+                    android:src="@drawable/background_menu_1_ek1" />
 
 
                 <RelativeLayout android:id="@+id/buat_nota_ek5"
@@ -77,24 +78,26 @@
 
                 </RelativeLayout>
 
-                <View   android:id="@+id/rectangle_12_ek1"
-                    android:background="@drawable/rectangle_12_ek1_shape"
+
+                <View
+                    android:id="@+id/rectangle_12_ek1"
+                    android:layout_width="361dp"
+                    android:layout_height="71dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="78dp"
-                    android:layout_width="361dp"
-                    android:layout_height="71dp" />
+                    android:background="@drawable/rectangle_12_ek1_shape" />
 
-                <TextView android:id="@+id/buat_nota_ek6"
-                    android:fontFamily="Inter"
-                    android:textSize="36sp"
-                    android:textColor="@color/password_ek1_color"
-                    android:layout_marginLeft="64dp"
-                    android:layout_marginTop="92dp"
+                <TextView
+                    android:id="@+id/buat_nota_ek6"
                     android:layout_width="211dp"
                     android:layout_height="69dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="92dp"
+                    android:fontFamily="Inter"
                     android:text="Buat Nota"
-                    />
-
+                    android:textColor="@color/password_ek1_color"
+                    android:textSize="36sp"
+                    android:visibility="visible" />
 
                 <RelativeLayout android:id="@+id/carbon_document_ek2"
                     android:layout_marginTop="99dp"
@@ -436,16 +439,16 @@
                                 android:text="Pilih Prioritas"
                                 />
 
-                            <TextView android:id="@+id/prioritas"
-                                android:fontFamily="Inter"
-                                android:textSize="20sp"
-                                android:textColor="@color/password_ek1_color"
-                                android:layout_marginLeft="0dp"
-                                android:layout_marginTop="0dp"
+                            <TextView
+                                android:id="@+id/prioritas"
                                 android:layout_width="103dp"
                                 android:layout_height="38dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="Inter"
                                 android:text="Prioritas"
-                                />
+                                android:textColor="@color/password_ek1_color"
+                                android:textSize="20sp" />
 
                         </RelativeLayout>
 
