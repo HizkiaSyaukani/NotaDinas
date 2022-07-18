@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NotaDinas">
         <activity
+            android:name=".NoteRevisiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreviewSuratMasukActivity"
+            android:exported="false" />
+        <activity
             android:name=".SuratMasukActivity"
             android:exported="false" />
         <activity
