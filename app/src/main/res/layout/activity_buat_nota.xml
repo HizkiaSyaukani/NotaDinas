@@ -56,7 +56,7 @@
                     android:layout_marginStart="-21dp"
                     android:layout_marginTop="-15dp"
                     android:contentDescription="background_menu_1_ek1"
-                    android:src="@drawable/background_menu_1_ek1" />
+                    android:src="@drawable/background_menu" />
 
 
                 <RelativeLayout android:id="@+id/buat_nota_ek5"

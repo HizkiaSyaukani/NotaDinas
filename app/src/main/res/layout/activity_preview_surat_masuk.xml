@@ -49,7 +49,7 @@
                     android:layout_height="896dp" />
 
                 <ImageView android:id="@+id/background_menu_1_ek11"
-                    android:src="@drawable/background_menu_1_ek11"
+                    android:src="@drawable/background_menu"
                     android:contentDescription="background_menu_1_ek11"
                     android:layout_marginStart="-21dp"
                     android:layout_marginTop="-15dp"
