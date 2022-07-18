@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NotaDinas">
         <activity
+            android:name=".SuratMasukActivity"
+            android:exported="false" />
+        <activity
             android:name=".BuatNotaActivity"
             android:exported="false" />
         <activity
