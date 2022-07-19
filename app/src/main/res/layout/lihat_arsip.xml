@@ -48,7 +48,7 @@
 					android:layout_height="896dp" />
 
 				<ImageView android:id="@+id/background_menu_1_ek10"
-					android:src="@drawable/background_menu_1_ek10"
+					android:src="@drawable/background_menu"
 					android:contentDescription="background_menu_1_ek10"
 					 android:layout_marginStart="-21dp"
 					android:layout_marginTop="-15dp"
@@ -270,8 +270,8 @@
 					>
 
 					<View   android:id="@+id/rectangle_5_ek10"
-						android:background="@drawable/rectangle_5_ek10_shape"
-						 android:layout_marginStart="0dp"
+						android:background="@drawable/rectangle_5_ek9_shape"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="62dp"
 						android:layout_width="428dp"
 						android:layout_height="74dp" />

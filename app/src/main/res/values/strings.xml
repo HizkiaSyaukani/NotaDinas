@@ -137,5 +137,28 @@
     <string name="ix_string">IX</string>
     <string name="keluar_string">Keluar</string>
 
+    <string-array name="Departemen_Pengirim">
+        <item>Departemen Pemasaran</item>
+        <item>Departemen Akutansi</item>
+        <item>Departemen SDM</item>
+        <item>Departemen Keuangan</item>
+        <item>Departemen Dafasum</item>
+        <item>Departemen Litbang</item>
+        <item>SPI</item>
+        <item>Departemen Produksi</item>
+        <item>Departemen Teknik</item>
+    </string-array>
+
+    <string-array name="Departemen_Tujuan">
+        <item>Departemen Pemasaran</item>
+        <item>Departemen Akutansi</item>
+        <item>Departemen SDM</item>
+        <item>Departemen Keuangan</item>
+        <item>Departemen Dafasum</item>
+        <item>Departemen Litbang</item>
+        <item>SPI</item>
+        <item>Departemen Produksi</item>
+        <item>Departemen Teknik</item>
+    </string-array>
 
 </resources>
