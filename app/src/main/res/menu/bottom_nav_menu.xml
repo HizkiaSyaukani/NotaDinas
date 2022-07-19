@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bnbuatnota"
+        android:title="Buat Nota"
+        android:icon="@drawable/ic_baseline_note_add_24">
+    </item>
+    <item android:id="@+id/bnsuratmasuk"
+        android:title="Surat Masuk"
+        android:icon="@drawable/ic_baseline_mail_24">
+    </item>
+    <item
+        android:id="@+id/placeholder"
+        android:title="">
+    </item>
+    <item android:id="@+id/bnsuratkeluar"
+        android:title="Surat keluar"
+        android:icon="@drawable/ic_baseline_mail_outline_24">
+    </item>
+    <item android:id="@+id/bnarsip"
+        android:title="Arsip"
+        android:icon="@drawable/ic_baseline_all_inbox_24">
+    </item>
+</menu>
