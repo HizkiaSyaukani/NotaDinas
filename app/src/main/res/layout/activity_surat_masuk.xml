@@ -41,14 +41,17 @@
                     android:layout_marginTop="0dp"
                     android:layout_width="386dp"
                     android:layout_height="896dp" />
-
                 <ImageView android:id="@+id/background_menu_1_ek2"
                     android:src="@drawable/background_menu"
                     android:contentDescription="background_menu"
+                <ImageView
+                    android:id="@+id/background_menu_1_ek2"
+                    android:layout_width="428dp"
+                    android:layout_height="840dp"
                     android:layout_marginStart="-21dp"
                     android:layout_marginTop="-15dp"
-                    android:layout_width="428dp"
-                    android:layout_height="840dp" />
+                    android:contentDescription="background_menu_1_ek2"
+                    android:src="@drawable/background_menu" />
 
                 <View   android:id="@+id/rectangle_12_ek2"
                     android:background="@drawable/rectangle_12_ek2_shape"
@@ -57,23 +60,16 @@
                     android:layout_width="361dp"
                     android:layout_height="71dp" />
 
-                <TextView android:id="@+id/surat_masuk_ek7"
-                    android:fontFamily="Inter"
-                    android:textSize="36sp"
-                    android:textColor="@color/password_ek1_color"
-                    android:layout_marginLeft="64dp"
-                    android:layout_marginTop="92dp"
+                <TextView
+                    android:id="@+id/surat_masuk_ek7"
                     android:layout_width="254dp"
                     android:layout_height="69dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="92dp"
+                    android:fontFamily="Inter"
                     android:text="Surat Masuk"
-                    />
-
-                <View   android:id="@+id/rectangle_biru_ek1"
-                    android:background="@drawable/rectangle_biru_ek1_shape"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="174dp"
-                    android:layout_width="382dp"
-                    android:layout_height="557dp" />
+                    android:textColor="@color/password_ek1_color"
+                    android:textSize="36sp" />
 
 
                 <RelativeLayout android:id="@+id/carbon_document_ek4"
@@ -91,13 +87,14 @@
                         android:layout_width="20dp"
                         android:layout_height="28dp" />
 
-                    <ImageView android:id="@+id/vector_ek24"
-                        android:src="@drawable/vector_ek24"
-                        android:contentDescription="vector_ek24"
+                    <ImageView
+                        android:id="@+id/vector_ek24"
+                        android:layout_width="12dp"
+                        android:layout_height="8dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="16dp"
-                        android:layout_width="12dp"
-                        android:layout_height="8dp" />
+                        android:contentDescription="vector_ek24"
+                        android:src="@drawable/vector_ek24" />
 
                 </RelativeLayout>
 
@@ -109,42 +106,28 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <View   android:id="@+id/rectangle_20"
-                        android:background="@drawable/rectangle_20_shape"
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignEnd="@+id/rectangle_20"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginEnd="60dp"
+                        android:layout_marginBottom="26dp"
+                        android:text="Kepala Departemen"
+                        android:visibility="visible" />
+
+                    <View
+                        android:id="@+id/rectangle_20"
+                        android:layout_width="356dp"
+                        android:layout_height="94dp"
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="-1dp"
-                        android:layout_width="356dp"
-                        android:layout_height="94dp" />
+                        android:background="@drawable/rectangle_20_shape" />
 
-                    <TextView android:id="@+id/kepala_departemen"
-                        android:fontFamily="Inter"
-                        android:textSize="20sp"
-                        android:textColor="@color/password_ek1_color"
-                        android:layout_marginLeft="46dp"
-                        android:layout_marginTop="11dp"
-                        android:layout_width="213dp"
-                        android:layout_height="39dp"
-                        android:text="Kepala Departemen"
-                        />
 
-                    <TextView android:id="@+id/perihal_surat"
-                        android:fontFamily="Inter"
-                        android:textSize="14sp"
-                        android:textColor="@color/password_ek1_color"
-                        android:layout_marginLeft="46dp"
-                        android:layout_marginTop="38dp"
-                        android:layout_width="104dp"
-                        android:layout_height="27dp"
-                        android:text="Perihal Surat"
-                        />
-
-                    <ImageView android:id="@+id/vector_ek25"
-                        android:src="@drawable/vector_ek25"
-                        android:contentDescription="vector_ek25"
-                        android:layout_marginStart="17.1dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_width="20.11dp"
-                        android:layout_height="18dp" />
 
                 </RelativeLayout>
 
@@ -185,13 +168,14 @@
                         android:text="Perihal Surat"
                         />
 
-                    <ImageView android:id="@+id/vector_ek26"
-                        android:src="@drawable/vector_ek26"
-                        android:contentDescription="vector_ek26"
+                    <ImageView
+                        android:id="@+id/vector_ek26"
+                        android:layout_width="20.11dp"
+                        android:layout_height="18dp"
                         android:layout_marginStart="17.1dp"
                         android:layout_marginTop="12dp"
-                        android:layout_width="20.11dp"
-                        android:layout_height="18dp" />
+                        android:contentDescription="vector_ek26"
+                        android:src="@drawable/vector_ek26" />
 
                 </RelativeLayout>
 
@@ -203,42 +187,18 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <View   android:id="@+id/rectangle_20_ek2"
-                        android:background="@drawable/rectangle_20_ek2_shape"
+                    <Button
+                        android:id="@+id/rectangle_20_ek2"
+                        android:layout_width="356dp"
+                        android:layout_height="94dp"
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="-1dp"
-                        android:layout_width="356dp"
-                        android:layout_height="94dp" />
-
-                    <TextView android:id="@+id/kepala_departemen_ek2"
-                        android:fontFamily="Inter"
-                        android:textSize="20sp"
-                        android:textColor="@color/password_ek1_color"
-                        android:layout_marginLeft="46dp"
-                        android:layout_marginTop="11dp"
-                        android:layout_width="213dp"
-                        android:layout_height="39dp"
+                        android:background="@drawable/rectangle_20_ek2_shape"
+                        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+                        android:gravity="top"
                         android:text="Kepala Departemen"
-                        />
 
-                    <TextView android:id="@+id/perihal_surat_ek2"
-                        android:fontFamily="Inter"
-                        android:textSize="14sp"
-                        android:textColor="@color/password_ek1_color"
-                        android:layout_marginLeft="46dp"
-                        android:layout_marginTop="38dp"
-                        android:layout_width="104dp"
-                        android:layout_height="27dp"
-                        android:text="Perihal Surat"
-                        />
-
-                    <ImageView android:id="@+id/vector_ek27"
-                        android:src="@drawable/vector_ek27"
-                        android:contentDescription="vector_ek27"
-                        android:layout_marginStart="17.1dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_width="20.11dp"
-                        android:layout_height="18dp" />
+                        android:textAlignment="textStart" />
 
                 </RelativeLayout>
 
