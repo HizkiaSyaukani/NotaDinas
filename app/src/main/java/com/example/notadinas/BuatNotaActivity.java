@@ -22,7 +22,7 @@ public class BuatNotaActivity extends AppCompatActivity implements AdapterView.O
         Pengirim.setAdapter(adapter);
         Pengirim.setOnItemSelectedListener(this);
 
-        Spinner Tujuan = findViewById(R.id.pilih_tujuan );
+        Spinner Tujuan = findViewById(R.id.untuk );
         ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this, R.array.Departemen_Tujuan, android.R.layout.simple_spinner_item);
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Tujuan.setAdapter(adapter1);

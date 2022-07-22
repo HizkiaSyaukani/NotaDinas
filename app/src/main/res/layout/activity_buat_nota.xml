@@ -23,52 +23,211 @@
      *
      */
     -->
-    <RelativeLayout
+    <RelativeLayout android:id="@+id/headerjudulbuatnota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
         android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/rectangle_6_ek1_shape"
+        android:layout_marginBottom="30dp"
         >
 
         <TextView
+            android:id="@+id/containerjudulbuatnota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="halo"
-            android:textAlignment="center"
-            android:textSize="50sp"
-            android:textStyle="italic"></TextView>
+            android:drawableLeft="@drawable/ic_baseline_sticky_note_2_24"
+            android:paddingLeft="15dp"
+            android:text=" Buat Nota"
+            android:textSize="45sp"></TextView>
 
     </RelativeLayout>
-
-    <Spinner
-        android:id="@+id/dari"
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="9dp"
-        android:layout_marginTop="180dp"
-        android:fontFamily="Inter"
-        android:text="Pilih Prioritas"
-        android:textColor="@color/masukan_password_color"
-        android:textSize="15sp" />
-
-    <Spinner
-        android:id="@+id/pilih_tujuan"
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="9dp"
-        android:layout_marginTop="250dp"
-        android:fontFamily="Inter"
-        android:text="Pilih Prioritas"
-        android:textColor="@color/masukan_password_color"
-        android:textSize="15sp" />
-
-    <EditText
-        android:id="@+id/lampiran"
-        android:layout_marginTop="250dp"
+    <ScrollView
         android:layout_gravity="center"
+        android:background="@drawable/rectangle_6_ek1_shape"
+        android:layout_width="300dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/pengirim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Pengirim"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pengirim"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+
+                    <Spinner
+                        android:id="@+id/dari"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/masukan_password_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/penerima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Penerima"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/penerima"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <Spinner
+                        android:id="@+id/untuk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/masukan_password_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp">
+                <TextView
+                    android:id="@+id/lampiran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Lampiran"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lampiran"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="15sp"></EditText>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp">
+
+                <TextView
+                    android:id="@+id/perihal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Perihal"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/perihal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="15sp"></EditText>
+
+                </RelativeLayout>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/buttonnext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/rectangle_4_ek1_shape"
+                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:text="Selanjutnya" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomappbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="350dp"
-        android:inputType="text"/>
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="10dp"
+        app:fabAlignmentMode="center"
+        app:fabCradleRoundedCornerRadius="20dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnavlogin"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:menu="@menu/bottom_nav_menu">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_person_pin_24"
+        app:maxImageSize="30dp"
+        app:layout_anchor="@id/bottomappbar"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

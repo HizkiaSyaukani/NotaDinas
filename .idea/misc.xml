@@ -24,9 +24,36 @@
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.1045" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/_bg__arsip_ek6_shape.xml" value="0.125" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/_bg__exit_safety_ek2_shape.xml" value="0.125" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_all_inbox_24.xml" value="0.125" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_buat_nota.xml" value="0.22" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_note_add_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek10_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek11_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek3_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek4_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek5_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek6_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek7_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek8_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_ek9_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_12_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_13_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_15_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_20_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_20_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_20_ek3_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_20_ek5_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_20_ek8_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_2_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_4_ek11_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/rectangle_4_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_buat_nota.xml" value="0.33" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_note_revisi.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_preview_surat_masuk.xml" value="0.1" />
@@ -46,6 +73,7 @@
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/surat_masuk.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/tanda_tangan.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/uraian.xml" value="0.1" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
