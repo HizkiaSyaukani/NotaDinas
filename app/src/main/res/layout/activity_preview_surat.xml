@@ -32,15 +32,14 @@
         >
 
 
-
         <TextView
-            android:id="@+id/containerjuduluraian"
+            android:id="@+id/containerjudulpreviewsurat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_baseline_text_snippet_24"
             android:paddingLeft="15dp"
-            android:text=" Uraian"
-            android:textSize="45sp"></TextView>
+            android:text=" Preview Surat"
+            android:textSize="36sp"></TextView>
 
     </RelativeLayout>
 
@@ -59,36 +58,32 @@
             android:layout_height="match_parent">
 
 
-        <RelativeLayout
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/white">
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/white">
 
 
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <EditText
-                android:paddingTop="10dp"
-                android:paddingLeft="10dp"
-                android:gravity="top"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="12sp"
-                android:background="@android:color/transparent">
-            </EditText>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_1"></ImageView>
+
+                </RelativeLayout>
 
             </RelativeLayout>
 
-        </RelativeLayout>
-
             <Button
-                android:id="@+id/buttonbackuraian"
+                android:id="@+id/buttonbackpreviewsurat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -100,7 +95,7 @@
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/buttonnexturaian"
+                android:id="@+id/buttonnextpreviewsurat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -110,9 +105,6 @@
                 android:drawableLeft="@drawable/ic_baseline_login_24"
                 android:text="Selanjutnya"
                 android:textSize="12sp" />
-
-
-
         </RelativeLayout>
     </ScrollView>
 

@@ -2,19 +2,32 @@ package com.example.notadinas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class BuatNotaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    Button buttonnextbuatnota;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buat_nota);
+
+        Button buttonnextbuatnota = (Button) findViewById(R.id.buttonnextbuatnota);
+        buttonnextbuatnota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ibuttonenextbuatnota = new Intent(BuatNotaActivity.this,UraianActivity.class);
+                startActivity(ibuttonenextbuatnota);
+            }
+        });
 
         Spinner Pengirim = findViewById(R.id.dari );
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Departemen_Pengirim, android.R.layout.simple_spinner_item);

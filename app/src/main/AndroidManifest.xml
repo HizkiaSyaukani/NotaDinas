@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NotaDinas">
         <activity
+            android:name=".ActivityTandaTangan"
+            android:exported="false" />
+        <activity
+            android:name=".LampiranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreviewSuratActivity"
+            android:exported="false" />
+        <activity
             android:name=".NoteRevisiActivity"
             android:exported="false" />
         <activity
@@ -23,6 +32,9 @@
             android:exported="false" />
         <activity
             android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UraianActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
