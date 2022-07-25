@@ -30,7 +30,7 @@ public class UraianActivity extends AppCompatActivity {
         buttonnexturaian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ibuttonenexturaian = new Intent(UraianActivity.this,PreviewSuratActivity.class);
+                Intent ibuttonenexturaian = new Intent(UraianActivity.this,ActivityTandaTangan.class);
                 startActivity(ibuttonenexturaian);
             }
         });

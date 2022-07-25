@@ -21,7 +21,7 @@ public class PreviewSuratActivity extends AppCompatActivity {
         buttonbackpreviewsurat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ibuttonbackpreviewsurat = new Intent(PreviewSuratActivity.this,UraianActivity.class);
+                Intent ibuttonbackpreviewsurat = new Intent(PreviewSuratActivity.this,ActivityTandaTangan.class);
                 startActivity(ibuttonbackpreviewsurat);
             }
         });
