@@ -11,7 +11,7 @@ import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ProfileActivity extends AppCompatActivity {
+public class HalamanAwalActivity extends AppCompatActivity {
     BottomNavigationView bnv;
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -21,19 +21,19 @@ public class ProfileActivity extends AppCompatActivity {
         bnv.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.bnbuatnota:
-                    Intent ibuatnota = new Intent(ProfileActivity.this,BuatNotaActivity.class);
+                    Intent ibuatnota = new Intent(HalamanAwalActivity.this,BuatNotaActivity.class);
                     startActivity(ibuatnota);
                     break;
                 case R.id.bnsuratmasuk:
-                    Intent isurmas = new Intent(ProfileActivity.this,SuratMasukActivity.class);
+                    Intent isurmas = new Intent(HalamanAwalActivity.this,SuratMasukActivity.class);
                     startActivity(isurmas);
                     break;
                 case R.id.bnsuratkeluar:
-                    Intent isurkel = new Intent(ProfileActivity.this,PreviewSuratMasukActivity.class);
+                    Intent isurkel = new Intent(HalamanAwalActivity.this,PreviewSuratMasukActivity.class);
                     startActivity(isurkel);
                     break;
                 case R.id.bnarsip:
-                    Intent iarsip = new Intent(ProfileActivity.this,ActivityTandaTangan.class);
+                    Intent iarsip = new Intent(HalamanAwalActivity.this,ActivityTandaTangan.class);
                     startActivity(iarsip);
                     break;
             }
@@ -41,4 +41,4 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
     }
-    }
+}
