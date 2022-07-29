@@ -196,7 +196,7 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="310dp"
                 android:background="@drawable/rectangle_4_ek1_shape"
-                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
                 android:text="Selanjutnya" />
         </RelativeLayout>
 

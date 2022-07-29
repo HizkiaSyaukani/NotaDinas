@@ -90,7 +90,7 @@
                 android:layout_marginTop="320dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/rectangle_4_ek1_shape"
-                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:drawableLeft="@drawable/ic_baseline_close_24"
                 android:text="Kembali"
                 android:textSize="12sp" />
 
@@ -102,7 +102,7 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="320dp"
                 android:background="@drawable/rectangle_4_ek1_shape"
-                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
                 android:text="Selanjutnya"
                 android:textSize="12sp" />
         </RelativeLayout>
