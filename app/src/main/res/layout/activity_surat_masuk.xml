@@ -1,109 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="wrap_content" >
-    <!--
-    /*
-     *	This content is generated from the API File Info.
-     *	(Alt+Shift+Ctrl+I).
-     *
-     *	@desc
-     *	@file 		login_awal
-     *	@date 		Wednesday 13th of July 2022 03:46:24 AM
-     *	@title 		ANDROID EXPORT
-     *	@author
-     *	@keywords
-     *	@generator 	Export Kit v1.3.figma
-     *
-     */
-    -->
-    <ScrollView android:id="@+id/surat_masuk"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_menu">
+    <RelativeLayout android:id="@+id/headerjuduluraian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle_6_ek1_shape"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:id="@+id/containerjudulpreviewsurat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_text_snippet_24"
+            android:paddingLeft="13dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text=" Surat Masuk"
+            android:textSize="36sp">
+        </TextView>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_row_masuk"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rectangle_6_shape"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomappbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="10dp"
+        app:fabAlignmentMode="center"
+        app:fabCradleRoundedCornerRadius="20dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnavlogin"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:menu="@menu/bottom_nav_menu">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_person_pin_24"
+        app:maxImageSize="30dp"
+        app:layout_anchor="@id/bottomappbar"/>
 
-        <RelativeLayout android:id="@+id/content_container"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
-
-                <View   android:id="@+id/_bg__surat_masuk_ek6"
-                    android:background="@drawable/_bg__surat_masuk_ek6_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="386dp"
-                    android:layout_height="896dp" />
-
-                <ImageView
-                    android:id="@+id/background_menu_1_ek2"
-                    android:layout_width="428dp"
-                    android:layout_height="840dp"
-                    android:layout_marginStart="-21dp"
-                    android:layout_marginTop="-15dp"
-                    android:contentDescription="background_menu_1_ek2"
-                    android:src="@drawable/background_menu" />
-
-                <View   android:id="@+id/rectangle_12_ek2"
-                    android:background="@drawable/rectangle_12_ek2_shape"
-                    android:layout_marginStart="12dp"
-                    android:layout_marginTop="78dp"
-                    android:layout_width="361dp"
-                    android:layout_height="71dp" />
-
-                <TextView
-                    android:id="@+id/surat_masuk_ek7"
-                    android:layout_width="254dp"
-                    android:layout_height="69dp"
-                    android:layout_marginLeft="64dp"
-                    android:layout_marginTop="92dp"
-                    android:text="Surat Masuk"
-                    android:textColor="@color/password_ek1_color"
-                    android:textSize="36sp" />
-
-
-                <RelativeLayout android:id="@+id/carbon_document_ek4"
-                    android:layout_marginTop="99dp"
-                    android:layout_marginStart="23dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-                    <ImageView android:id="@+id/vector_ek23"
-                        android:src="@drawable/vector_ek23"
-                        android:contentDescription="vector_ek23"
-                        android:layout_marginStart="6dp"
-                        android:layout_marginTop="2dp"
-                        android:layout_width="20dp"
-                        android:layout_height="28dp" />
-
-                    <ImageView
-                        android:id="@+id/vector_ek24"
-                        android:layout_width="12dp"
-                        android:layout_height="8dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="16dp"
-                        android:contentDescription="vector_ek24"
-                        android:src="@drawable/vector_ek24" />
-
-                </RelativeLayout>
-
-                <RelativeLayout android:id="@+id/contoh_surat_2"
-                    android:layout_marginTop="297dp"
-                    android:layout_marginStart="15dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    >
-
-                    <Button
-                        android:id="@+id/rectangle_20_ek2"
-                        android:layout_width="356dp"
-                        android:layout_height="94dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="-1dp"
-                        android:background="@drawable/rectangle_20_ek2_shape"
-                        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
-                        android:gravity="top"
-                        android:text="Dani Jatnika" />
-                </RelativeLayout>
-        </RelativeLayout>
-    </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
