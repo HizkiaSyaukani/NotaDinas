@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NotaDinas">
         <activity
+            android:name=".ArsipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuratKeluarActivity"
+            android:exported="false" />
+        <activity
             android:name=".HalamanAwalActivity"
             android:exported="false" />
         <activity
