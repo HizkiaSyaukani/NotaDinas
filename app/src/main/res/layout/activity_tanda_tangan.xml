@@ -61,19 +61,18 @@
             <RelativeLayout
                 android:layout_width="300dp"
                 android:layout_height="300dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@color/white">
-
 
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                   <!-- <ImageView
+                    <!-- <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:src="@drawable/image_1"></ImageView>-->
@@ -90,20 +89,31 @@
                 android:layout_marginTop="320dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/rectangle_4_ek1_shape"
-                android:drawableLeft="@drawable/ic_baseline_login_24"
+                android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
                 android:text="Kembali"
                 android:textSize="12sp" />
 
-            <Button
-                android:id="@+id/buttonnexttandatangan"
-                android:layout_width="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttoncleartandatangan"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="320dp"
-                android:background="@drawable/rectangle_4_ek1_shape"
-                android:drawableLeft="@drawable/ic_baseline_login_24"
-                android:text="Selanjutnya"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/rectangle_red"
+                android:paddingLeft="15dp"
+                android:drawableStart="@drawable/ic_baseline_close_24"
+                android:gravity="fill"></androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonnexttandatangan"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="320dp"
+                android:background="@drawable/rectangle_green"
+                android:drawableLeft="@drawable/ic_baseline_check_24"
+                android:paddingLeft="15dp"
                 android:textSize="12sp" />
         </RelativeLayout>
     </ScrollView>
