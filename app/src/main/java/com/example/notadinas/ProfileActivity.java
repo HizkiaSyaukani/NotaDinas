@@ -29,11 +29,11 @@ public class ProfileActivity extends AppCompatActivity {
                     startActivity(isurmas);
                     break;
                 case R.id.bnsuratkeluar:
-                    Intent isurkel = new Intent(ProfileActivity.this,PreviewSuratMasukActivity.class);
+                    Intent isurkel = new Intent(ProfileActivity.this,SuratKeluarActivity.class);
                     startActivity(isurkel);
                     break;
                 case R.id.bnarsip:
-                    Intent iarsip = new Intent(ProfileActivity.this,ActivityTandaTangan.class);
+                    Intent iarsip = new Intent(ProfileActivity.this,ArsipActivity.class);
                     startActivity(iarsip);
                     break;
             }
