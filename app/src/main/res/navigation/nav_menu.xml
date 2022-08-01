@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/buatNotaFragment">
+
+    <fragment
+        android:id="@+id/buatNotaFragment"
+        android:name="com.example.notadinas.BuatNotaFragment"
+        android:label="fragment_buat_nota"
+        tools:layout="@layout/fragment_buat_nota" />
+    <fragment
+        android:id="@+id/suratMasukFragment"
+        android:name="com.example.notadinas.SuratMasukFragment"
+        android:label="fragment_surat_masuk"
+        tools:layout="@layout/fragment_surat_masuk" />
+    <fragment
+        android:id="@+id/arsipFragment"
+        android:name="com.example.notadinas.ArsipFragment"
+        android:label="fragment_arsip"
+        tools:layout="@layout/fragment_arsip" />
+    <fragment
+        android:id="@+id/suratKeluarFragment"
+        android:name="com.example.notadinas.SuratKeluarFragment"
+        android:label="fragment_surat_keluar"
+        tools:layout="@layout/fragment_surat_keluar" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.notadinas.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
