@@ -1,14 +1,205 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BuatNotaFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context=".BuatNotaActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_menu"
+    >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		login_awal
+     *	@date 		Wednesday 13th of July 2022 03:46:24 AM
+     *	@title 		ANDROID EXPORT
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <RelativeLayout android:id="@+id/headerjudulbuatnota"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello Buat Nota" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle_6_ek1_shape"
+        android:layout_marginBottom="30dp"
+        >
 
+        <TextView
+            android:id="@+id/containerjudulbuatnota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_sticky_note_2_24"
+            android:paddingLeft="15dp"
+            android:text=" Buat Nota"
+
+            android:textSize="45sp"> </TextView>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_6_ek1_shape"
+        android:layout_width="300dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/pengirim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Pengirim"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pengirim"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+
+                    <Spinner
+                        android:id="@+id/dari"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/masukan_password_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/penerima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Penerima"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/penerima"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <Spinner
+                        android:id="@+id/untuk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/masukan_password_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp">
+                <TextView
+                    android:id="@+id/lampiran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Lampiran"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lampiran"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="15sp"></EditText>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp">
+
+                <TextView
+                    android:id="@+id/perihal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Perihal"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/perihal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="15sp"></EditText>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/buttonnextbuatnota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/rectangle_4_ek1_shape"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:text="Selanjutnya" />
+        </RelativeLayout>
+
+    </ScrollView>
 </FrameLayout>

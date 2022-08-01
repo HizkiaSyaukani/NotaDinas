@@ -18,7 +18,7 @@ public class BuatNotaActivity extends AppCompatActivity implements AdapterView.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buat_nota);
+        setContentView(R.layout.fragment_buat_nota);
 
         Button buttonnextbuatnota = (Button) findViewById(R.id.buttonnextbuatnota);
         buttonnextbuatnota.setOnClickListener(new View.OnClickListener() {
