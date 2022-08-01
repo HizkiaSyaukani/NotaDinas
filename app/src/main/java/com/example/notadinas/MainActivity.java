@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent imasuk = new Intent(MainActivity.this,ProfileActivity.class);
+                Intent imasuk = new Intent(MainActivity.this,HalamanAwalActivity.class);
                 startActivity(imasuk);
             }
         });

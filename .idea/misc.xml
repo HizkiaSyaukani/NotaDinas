@@ -26,12 +26,16 @@
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_dashboard.xml" value="0.15896739130434784" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_halaman_awal.xml" value="0.18426678067550234" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_surat_keluar.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_surat_masuk.xml" value="0.16" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/activity_tanda_tangan.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/arsip.xml" value="0.1" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/fragment_arsip.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/fragment_buat_nota.xml" value="0.18426678067550234" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/fragment_surat_keluar.xml" value="0.1" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/fragment_surat_masuk.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/item_row_arsip.xml" value="0.2" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/item_row_keluar.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/item_row_masuk.xml" value="0.25" />
@@ -42,6 +46,7 @@
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/note_revisi.xml" value="0.33" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/pilih_lampiran.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/layout/profile.xml" value="0.1" />
+        <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
         <entry key="..\:/Akademik/Kerja Praktik/NotaDinas/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.1045" />
