@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout
+    <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -37,11 +37,11 @@
             android:id="@+id/containerjudulbuatnota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_sticky_note_2_24"
+            android:drawableLeft="@drawable/ic_baseline_note_add_48"
             android:paddingLeft="15dp"
             android:text=" Buat Nota"
 
-            android:textSize="45sp"> </TextView>
+            android:textSize="45sp"></TextView>
 
     </RelativeLayout>
     <ScrollView
@@ -67,7 +67,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-
                     android:text="Pengirim"
                     android:textSize="20sp">
 
@@ -202,4 +201,4 @@
         </RelativeLayout>
 
     </ScrollView>
-</FrameLayout>
+    </FrameLayout>

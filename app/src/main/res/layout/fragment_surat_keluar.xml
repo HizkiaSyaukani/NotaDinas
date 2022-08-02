@@ -17,7 +17,7 @@
             android:id="@+id/containerjudulpreviewsurat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_text_snippet_24"
+            android:drawableLeft="@drawable/ic_baseline_mail_outline_48"
             android:paddingLeft="13dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"

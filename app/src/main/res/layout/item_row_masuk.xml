@@ -19,22 +19,31 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/tv_nama"
+            android:id="@+id/tv_nama_masuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:text="Person Name"
+            android:text="Departemen"
             />
         <TextView
-            android:id="@+id/tv_desc"
+            android:id="@+id/tv_desc_masuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Description"
+            android:text="Deskripsi"
+            />
+        <TextView
+            android:id="@+id/tv_status_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Status"
             />
     </LinearLayout>
 

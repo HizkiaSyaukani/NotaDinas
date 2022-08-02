@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
@@ -10,19 +9,13 @@
     <color name="biru_peruri">#084F9E</color>
     <color name="green">#1aff1a</color>
     <color name="red">#ff0000</color>
-    <color name="_bg__profile_color">#FFFFFF</color>
     <color name="rectangle_5_color">#9FD1FF</color>
-    <color name="surat_masuk_ek1_color">#000000</color>
     <color name="ellipse_1_color">#316DB3</color>
     <color name="ellipse_2_color">#D9D9D9</color>
     <color name="rectangle_6_color">#9BE2E2</color>
     <color name="rectangle_9_color">#ADF9F9</color>
-    <color name="_3411191149_color">#353535</color>
     <color name="_bg__login_awal_ek2_color">#FFFFFF</color>
     <color name="password_ek1_color">#000000</color>
     <color name="masukan_password_color">#4A4A4A</color>
-    <color name="bunderan_dalem_color">#D6D6D6</color>
     <color name="_rectangle_3_color">#084F9E</color>
-    <color name="rectangle_19_color">#0A9E07</color>
-    <color name="rectangle_18_color">#FF0000</color>
 </resources>

@@ -54,11 +54,15 @@
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/_bg__exit_safety_ek2_shape.xml" value="0.125" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ellipse_2_ek9_shape.xml" value="0.119" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_all_inbox_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_all_inbox_big.xml" value="0.157" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.121" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.121" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_48.xml" value="0.157" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_mail_outline_48.xml" value="0.157" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_note_add_24.xml" value="0.125" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_note_add_48.xml" value="0.157" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.125" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.125" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/drawable/ic_baseline_text_snippet_24.xml" value="0.102" />
@@ -93,7 +97,7 @@
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_note_revisi.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_preview_surat.xml" value="0.22" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_preview_surat_keluar.xml" value="0.1" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_preview_surat_masuk.xml" value="0.33" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_preview_surat_masuk.xml" value="0.22" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_profile.xml" value="0.5" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_surat_keluar.xml" value="0.1115861479264643" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/activity_surat_masuk.xml" value="0.28289473684210525" />
@@ -102,11 +106,14 @@
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/arsip.xml" value="0.14427083333333332" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/buat_nota.xml" value="0.20416666666666666" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/exit_safety.xml" value="0.14427083333333332" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_arsip.xml" value="0.12355707567336469" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_buat_nota.xml" value="0.15604959384352288" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_profile.xml" value="0.12355707567336469" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_surat_keluar.xml" value="0.1115861479264643" />
-        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_surat_masuk.xml" value="0.1115861479264643" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_arsip.xml" value="0.25" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_buat_nota.xml" value="0.25" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_profile.xml" value="0.15" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_surat_keluar.xml" value="0.25" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/fragment_surat_masuk.xml" value="0.21" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/item_row_arsip.xml" value="0.33" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/item_row_keluar.xml" value="0.33" />
+        <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/item_row_masuk.xml" value="0.25" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/lihat_arsip.xml" value="0.1" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/lihat_surat_jadi.xml" value="0.1288888888888889" />
         <entry key="..\:/Tugas/SEMESTER 6/KP/KERJAAN/Notadinas/NotaDinas/app/src/main/res/layout/lihat_surat_keluar.xml" value="0.1288888888888889" />

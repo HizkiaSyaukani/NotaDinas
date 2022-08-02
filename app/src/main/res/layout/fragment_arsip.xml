@@ -13,29 +13,26 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/rectangle_6_ek1_shape"
         android:layout_marginBottom="30dp">
+
         <TextView
             android:id="@+id/containerjudulpreviewsurat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_text_snippet_24"
+            android:drawableLeft="@drawable/ic_baseline_all_inbox_48"
             android:paddingLeft="13dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text=" Arsip"
-            android:textSize="36sp">
-        </TextView>
+            android:textSize="36sp"></TextView>
     </RelativeLayout>
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
         android:id="@+id/rvArsip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_row_masuk"
+        tools:listitem="@layout/item_row_arsip"
         android:layout_marginTop="140dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="100dp"
-        android:background="@drawable/rectangle_6_shape"/>
-
-
-
+        android:background="@drawable/rectangle_6_shape"></ListView>
 </FrameLayout>

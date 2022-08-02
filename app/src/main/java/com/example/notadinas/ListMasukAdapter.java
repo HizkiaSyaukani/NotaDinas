@@ -41,8 +41,8 @@ public class ListMasukAdapter extends RecyclerView.Adapter<ListMasukAdapter.List
         TextView tv_nama, tv_detail;
         public ListViewHolder(View itemview){
             super(itemview);
-            tv_nama = itemview.findViewById(R.id.tv_nama);
-            tv_detail = itemview.findViewById(R.id.tv_desc);
+            tv_nama = itemview.findViewById(R.id.tv_nama_masuk);
+            tv_detail = itemview.findViewById(R.id.tv_desc_masuk);
         }
     }
 }

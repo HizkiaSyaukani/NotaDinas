@@ -25,7 +25,7 @@
             android:layout_marginBottom="16dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:text="Person Name"
+            android:text="Departemen"
             />
         <TextView
             android:id="@+id/tv_desc_keluar"
@@ -34,7 +34,7 @@
             android:layout_marginBottom="16dp"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Description"
+            android:text="Deskripsi"
             />
         <TextView
             android:id="@+id/tv_status_keluar"
@@ -43,7 +43,7 @@
             android:layout_marginBottom="16dp"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Description"
+            android:text="Status"
             />
     </LinearLayout>
 
